@@ -19,7 +19,6 @@ public class WSDataService {
 	@Produces(MediaType.APPLICATION_JSON)
 	@Path("/consulta")
 	public List<Pessoa> obterCadastros(){
-		System.out.println("Teste");
 		return pDAO.buscarCadastroPessoa();
 	}
 

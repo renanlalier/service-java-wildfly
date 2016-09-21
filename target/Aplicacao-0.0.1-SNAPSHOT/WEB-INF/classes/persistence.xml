@@ -1,0 +1,10 @@
+<persistence>
+   <persistence-unit name="Aplicacao">
+      <provider>org.hibernate.ejb.HibernatePersistence</provider>
+      <jta-data-source>java:/MySql</jta-data-source>
+      <properties>
+         <property name="hibernate.show_sql" value="true" />
+         <property name="hibernate.hbm2ddl.auto" value="create-drop"/>
+      </properties>
+   </persistence-unit>
+</persistence>   
